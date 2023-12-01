@@ -1,0 +1,99 @@
+
+App Thinning Size Report for All Variants of Cabbee
+
+Variant: Cabbee-00E3DAFB-71DF-4477-8629-30D4593D33B8.ipa
+Supported variant descriptors: [device: iPhone9,1, os-version: 12], [device: iPhone9,3, os-version: 12], [device: iPhone10,1, os-version: 12], and [device: iPhone10,4, os-version: 12]
+App + On Demand Resources size: 10 MB compressed, 35 MB uncompressed
+App size: 10 MB compressed, 35 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Cabbee-121BC811-B8DA-458D-95F8-131F71F47EC1.ipa
+Supported variant descriptors: [device: iPad4,1, os-version: 11], [device: iPad4,4, os-version: 11], [device: iPad6,8, os-version: 11], [device: iPad5,1, os-version: 11], [device: iPad5,3, os-version: 11], [device: iPad4,5, os-version: 11], [device: iPad6,12, os-version: 11], [device: iPad4,3, os-version: 11], [device: iPad4,8, os-version: 11], [device: iPad6,7, os-version: 11], [device: iPad4,2, os-version: 11], [device: iPad4,9, os-version: 11], [device: iPad4,7, os-version: 11], [device: iPad5,2, os-version: 11], [device: iPad7,5, os-version: 11], [device: iPad7,6, os-version: 11], [device: iPad4,6, os-version: 11], [device: iPad5,4, os-version: 11], and [device: iPad6,11, os-version: 11]
+App + On Demand Resources size: 10.6 MB compressed, 35 MB uncompressed
+App size: 10.6 MB compressed, 35 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Cabbee-2AE1D133-480A-4396-B1FD-A5D48DC10C5C.ipa
+Supported variant descriptors: [device: iPhone7,2, os-version: 11], [device: iPhone8,4, os-version: 11], [device: iPhone6,1, os-version: 11], [device: iPhone6,2, os-version: 11], [device: iPhone8,1, os-version: 11], and [device: iPod7,1, os-version: 11]
+App + On Demand Resources size: 10.6 MB compressed, 35 MB uncompressed
+App size: 10.6 MB compressed, 35 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Cabbee-44C1CE15-0849-4397-B3CB-73B04D72741E.ipa
+Supported variant descriptors: [device: iPhone8,2, os-version: 11] and [device: iPhone7,1, os-version: 11]
+App + On Demand Resources size: 12.3 MB compressed, 35 MB uncompressed
+App size: 12.3 MB compressed, 35 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Cabbee-59523051-092D-45E6-8961-F01CE3F302FE.ipa
+Supported variant descriptors: [device: iPhone8,2, os-version: 12]
+App + On Demand Resources size: 11.1 MB compressed, 35 MB uncompressed
+App size: 11.1 MB compressed, 35 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Cabbee-6B513175-29D4-4BFD-AA5F-421C29E1AF8F.ipa
+Supported variant descriptors: [device: iPhone10,4, os-version: 11], [device: iPhone9,1, os-version: 11], [device: iPhone9,3, os-version: 11], and [device: iPhone10,1, os-version: 11]
+App + On Demand Resources size: 10.6 MB compressed, 35 MB uncompressed
+App size: 10.6 MB compressed, 35 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Cabbee-6CC8F187-D661-4F7F-9739-E3562D3C33F2.ipa
+Supported variant descriptors: [device: iPhone11,8, os-version: 12]
+App + On Demand Resources size: 10.1 MB compressed, 35 MB uncompressed
+App size: 10.1 MB compressed, 35 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Cabbee-8D9E9AFA-7BED-4030-8F35-22C099E6B6F8.ipa
+Supported variant descriptors: [device: iPad6,3, os-version: 11], [device: iPad6,4, os-version: 11], [device: iPad7,3, os-version: 11], [device: iPad7,4, os-version: 11], [device: iPad7,1, os-version: 11], and [device: iPad7,2, os-version: 11]
+App + On Demand Resources size: 10.6 MB compressed, 35 MB uncompressed
+App size: 10.6 MB compressed, 35 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Cabbee-B7979A98-ADE2-41E0-9D99-1C753182FA1B.ipa
+Supported variant descriptors: [device: iPad7,3, os-version: 12], [device: iPad8,5, os-version: 12], [device: iPad7,1, os-version: 12], [device: iPad7,2, os-version: 12], [device: iPad8,7, os-version: 12], [device: iPad8,8, os-version: 12], [device: iPad8,3, os-version: 12], [device: iPad8,2, os-version: 12], [device: iPad8,4, os-version: 12], [device: iPad6,4, os-version: 12], [device: iPad6,3, os-version: 12], [device: iPad8,6, os-version: 12], [device: iPad8,1, os-version: 12], and [device: iPad7,4, os-version: 12]
+App + On Demand Resources size: 10 MB compressed, 35 MB uncompressed
+App size: 10 MB compressed, 35 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Cabbee-BD92CB01-E13C-42C3-9A97-17E6F63FB00F.ipa
+Supported variant descriptors: [device: iPhone11,4, os-version: 12], [device: iPhone9,2, os-version: 12], [device: iPhone9,4, os-version: 12], [device: iPhone10,5, os-version: 12], [device: iPhone11,2, os-version: 12], [device: iPhone10,2, os-version: 12], [device: iPhone10,6, os-version: 12], [device: iPhone11,6, os-version: 12], and [device: iPhone10,3, os-version: 12]
+App + On Demand Resources size: 11.1 MB compressed, 35 MB uncompressed
+App size: 11.1 MB compressed, 35 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Cabbee-BFC2A204-F521-4EC4-B1A4-48D2152D16FC.ipa
+Supported variant descriptors: [device: iPhone10,6, os-version: 11], [device: iPhone9,2, os-version: 11], [device: iPhone9,4, os-version: 11], [device: iPhone10,2, os-version: 11], [device: iPhone10,5, os-version: 11], and [device: iPhone10,3, os-version: 11]
+App + On Demand Resources size: 12.3 MB compressed, 35 MB uncompressed
+App size: 12.3 MB compressed, 35 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Cabbee-DB7A7AB4-997F-439D-BE0A-15EE0819F948.ipa
+Supported variant descriptors: [device: iPhone8,4, os-version: 12], [device: iPhone6,2, os-version: 12], [device: iPhone6,1, os-version: 12], [device: iPhone8,1, os-version: 12], [device: iPod7,1, os-version: 12], and [device: iPhone7,2, os-version: 12]
+App + On Demand Resources size: 10 MB compressed, 35 MB uncompressed
+App size: 10 MB compressed, 35 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Cabbee-F4BE4008-34F3-471C-A9E8-876C52F0BC3A.ipa
+Supported variant descriptors: [device: iPad6,8, os-version: 12], [device: iPad4,5, os-version: 12], [device: iPad4,2, os-version: 12], [device: iPad7,6, os-version: 12], [device: iPad6,11, os-version: 12], [device: iPad4,7, os-version: 12], [device: iPad6,12, os-version: 12], [device: iPad5,1, os-version: 12], [device: iPad4,3, os-version: 12], [device: iPad4,9, os-version: 12], [device: iPad7,5, os-version: 12], [device: iPad5,4, os-version: 12], [device: iPad5,3, os-version: 12], [device: iPad6,7, os-version: 12], [device: iPad4,1, os-version: 12], [device: iPad4,6, os-version: 12], [device: iPad4,4, os-version: 12], [device: iPad4,8, os-version: 12], and [device: iPad5,2, os-version: 12]
+App + On Demand Resources size: 10 MB compressed, 35 MB uncompressed
+App size: 10 MB compressed, 35 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Cabbee.ipa
+Supported variant descriptors: Universal
+App + On Demand Resources size: 19.9 MB compressed, 35 MB uncompressed
+App size: 19.9 MB compressed, 35 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed

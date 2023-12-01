@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="DoubleBannerCVC" customModule="Gaurashtra" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qKC-TE-xeH">
+                        <rect key="frame" x="0.0" y="1" width="300" height="99"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pZX-GK-CDR">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="99"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="pZX-GK-CDR" secondAttribute="bottom" id="GJw-eE-Wz7"/>
+                            <constraint firstAttribute="trailing" secondItem="pZX-GK-CDR" secondAttribute="trailing" id="ZTx-hU-93d"/>
+                            <constraint firstItem="pZX-GK-CDR" firstAttribute="leading" secondItem="qKC-TE-xeH" secondAttribute="leading" id="iBy-dh-Nux"/>
+                            <constraint firstItem="pZX-GK-CDR" firstAttribute="top" secondItem="qKC-TE-xeH" secondAttribute="top" id="pxS-db-ugh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="qKC-TE-xeH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GQc-zm-tlK"/>
+                <constraint firstAttribute="trailing" secondItem="qKC-TE-xeH" secondAttribute="trailing" id="Jyi-wO-tju"/>
+                <constraint firstAttribute="bottom" secondItem="qKC-TE-xeH" secondAttribute="bottom" id="PxC-ZV-i5Y"/>
+                <constraint firstItem="qKC-TE-xeH" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="1" id="mMt-PJ-7jV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="imgView" destination="pZX-GK-CDR" id="QOK-wb-OUA"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="117.85714285714285"/>
+        </collectionViewCell>
+    </objects>
+</document>

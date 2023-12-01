@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ProductImageCVC" customModule="Gaurashtra" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ize-5L-2Oo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iiR-j4-bJu">
+                                <rect key="frame" x="8" y="8" width="304" height="488"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iiR-j4-bJu" firstAttribute="top" secondItem="ize-5L-2Oo" secondAttribute="top" constant="8" id="DYp-f3-UhN"/>
+                            <constraint firstAttribute="bottom" secondItem="iiR-j4-bJu" secondAttribute="bottom" constant="8" id="Mue-sh-zAl"/>
+                            <constraint firstItem="iiR-j4-bJu" firstAttribute="leading" secondItem="ize-5L-2Oo" secondAttribute="leading" constant="8" id="p1V-B6-VBY"/>
+                            <constraint firstAttribute="trailing" secondItem="iiR-j4-bJu" secondAttribute="trailing" constant="8" id="xg1-If-GCn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="ize-5L-2Oo" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="0vv-Bs-78Y"/>
+                <constraint firstItem="ize-5L-2Oo" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="2VE-Da-Gwy"/>
+                <constraint firstAttribute="bottom" secondItem="ize-5L-2Oo" secondAttribute="bottom" id="QsV-ig-qZU"/>
+                <constraint firstAttribute="trailing" secondItem="ize-5L-2Oo" secondAttribute="trailing" id="wGT-4F-7bj"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="webKit" destination="iiR-j4-bJu" id="ncS-I0-9CA"/>
+            </connections>
+            <point key="canvasLocation" x="132.80000000000001" y="147.52623688155924"/>
+        </collectionViewCell>
+    </objects>
+</document>

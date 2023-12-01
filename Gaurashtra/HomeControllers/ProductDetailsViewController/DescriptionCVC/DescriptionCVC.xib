@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="DescriptionCVC" customModule="Gaurashtra" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="325"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="325"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="em8-6A-bbw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="325"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ad4-KU-b3r">
+                                <rect key="frame" x="8" y="8" width="304" height="309"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <wkWebView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nam-Aa-yw9">
+                                <rect key="frame" x="8" y="8" width="304" height="309"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nam-Aa-yw9" firstAttribute="top" secondItem="em8-6A-bbw" secondAttribute="top" constant="8" id="BwE-nz-V39"/>
+                            <constraint firstAttribute="trailing" secondItem="ad4-KU-b3r" secondAttribute="trailing" constant="8" id="Dt8-W5-AMD"/>
+                            <constraint firstAttribute="bottom" secondItem="ad4-KU-b3r" secondAttribute="bottom" constant="8" id="Noi-Zg-lUV"/>
+                            <constraint firstItem="nam-Aa-yw9" firstAttribute="leading" secondItem="em8-6A-bbw" secondAttribute="leading" constant="8" id="guv-HL-i6G"/>
+                            <constraint firstItem="ad4-KU-b3r" firstAttribute="leading" secondItem="em8-6A-bbw" secondAttribute="leading" constant="8" id="ico-ch-d88"/>
+                            <constraint firstAttribute="bottom" secondItem="nam-Aa-yw9" secondAttribute="bottom" constant="8" id="tgU-JU-sKG"/>
+                            <constraint firstAttribute="trailing" secondItem="nam-Aa-yw9" secondAttribute="trailing" constant="8" id="w91-yz-Fzp"/>
+                            <constraint firstItem="ad4-KU-b3r" firstAttribute="top" secondItem="em8-6A-bbw" secondAttribute="top" constant="8" id="z8j-eh-DC8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="em8-6A-bbw" secondAttribute="trailing" id="X7g-Gc-qqH"/>
+                <constraint firstItem="em8-6A-bbw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="bp1-yN-1k7"/>
+                <constraint firstAttribute="bottom" secondItem="em8-6A-bbw" secondAttribute="bottom" id="fmf-KN-yTN"/>
+                <constraint firstItem="em8-6A-bbw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="vHW-I4-z0G"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="kitWeb" destination="nam-Aa-yw9" id="Ebw-7N-ASl"/>
+                <outlet property="webView" destination="ad4-KU-b3r" id="IwS-eD-AZI"/>
+            </connections>
+            <point key="canvasLocation" x="132.80000000000001" y="148.87556221889056"/>
+        </collectionViewCell>
+    </objects>
+</document>

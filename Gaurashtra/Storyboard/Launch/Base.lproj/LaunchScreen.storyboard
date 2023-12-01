@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="1rX-nT-Dee">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v1.7.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ynw-PZ-t4c">
+                                <rect key="frame" x="0.0" y="537" width="320" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="yOe-CN-rDP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2020 Gaurashtra. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8z-2W-7Ka">
+                                <rect key="frame" x="0.0" y="517" width="320" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="TF2-9Q-iEF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ynw-PZ-t4c" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="5jj-eX-Oie"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ynw-PZ-t4c" secondAttribute="bottom" constant="11" id="8dx-HK-LdW"/>
+                            <constraint firstAttribute="bottom" secondItem="1rX-nT-Dee" secondAttribute="bottom" id="CBt-dE-Slc"/>
+                            <constraint firstItem="ynw-PZ-t4c" firstAttribute="top" secondItem="S8z-2W-7Ka" secondAttribute="bottom" id="IzD-Om-jiS"/>
+                            <constraint firstItem="1rX-nT-Dee" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="LCc-1m-PH1"/>
+                            <constraint firstItem="ynw-PZ-t4c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OYI-k6-O25"/>
+                            <constraint firstItem="1rX-nT-Dee" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VPo-Rm-bpI"/>
+                            <constraint firstItem="1rX-nT-Dee" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="fjm-ux-Qnk"/>
+                            <constraint firstItem="ynw-PZ-t4c" firstAttribute="top" secondItem="S8z-2W-7Ka" secondAttribute="bottom" id="gCM-ou-hRv"/>
+                            <constraint firstItem="S8z-2W-7Ka" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="h0u-a7-V9w"/>
+                            <constraint firstItem="S8z-2W-7Ka" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="iLP-Ig-8d3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.6305418719212"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash" width="320" height="568"/>
+    </resources>
+</document>

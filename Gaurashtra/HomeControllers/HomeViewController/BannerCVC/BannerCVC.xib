@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BannerCVC" customModule="Gaurashtra" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j7C-dg-aiA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hFX-CH-VvV">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="hFX-CH-VvV" secondAttribute="trailing" id="Re7-g6-zBn"/>
+                            <constraint firstItem="hFX-CH-VvV" firstAttribute="leading" secondItem="j7C-dg-aiA" secondAttribute="leading" id="Rvg-gV-aR6"/>
+                            <constraint firstAttribute="bottom" secondItem="hFX-CH-VvV" secondAttribute="bottom" id="VGy-bO-Gne"/>
+                            <constraint firstItem="hFX-CH-VvV" firstAttribute="top" secondItem="j7C-dg-aiA" secondAttribute="top" id="Zjs-d7-6nd"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="j7C-dg-aiA" secondAttribute="trailing" id="8Wd-6J-TIc"/>
+                <constraint firstItem="j7C-dg-aiA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Eip-AA-7Wt"/>
+                <constraint firstItem="j7C-dg-aiA" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="WmR-5R-22h"/>
+                <constraint firstAttribute="bottom" secondItem="j7C-dg-aiA" secondAttribute="bottom" id="blF-jq-hhV"/>
+            </constraints>
+            <connections>
+                <outlet property="imgBanner" destination="hFX-CH-VvV" id="oiF-sl-MJF"/>
+            </connections>
+            <point key="canvasLocation" x="132.80000000000001" y="117.84107946026987"/>
+        </collectionViewCell>
+    </objects>
+</document>
