@@ -2996,7 +2996,7 @@
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50% OFF" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oMs-B5-r0E">
-                                                                            <rect key="frame" x="106.66666666666664" y="0.0" width="52.333333333333329" height="20"/>
+                                                                            <rect key="frame" x="106.66666666666666" y="0.0" width="56" height="20"/>
                                                                             <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
                                                                             <color key="textColor" red="0.93333333330000001" green="0.33333333329999998" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -3543,7 +3543,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOTAL AMOUNT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kU8-Gc-hhZ">
-                                                <rect key="frame" x="50.000000000000007" y="1" width="115.66666666666669" height="50"/>
+                                                <rect key="frame" x="50" y="1" width="114" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="dDk-qu-uWJ"/>
                                                 </constraints>
@@ -3665,7 +3665,7 @@
                                                                     </constraints>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fwi-Jr-yh5">
-                                                                    <rect key="frame" x="7.9999999999999964" y="1" width="56.666666666666657" height="28"/>
+                                                                    <rect key="frame" x="8.0000000000000036" y="1" width="49.333333333333343" height="28"/>
                                                                     <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -5587,13 +5587,13 @@
                                                     <rect key="frame" x="0.0" y="15" width="375" height="30"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dvw-SM-5Vb">
-                                                            <rect key="frame" x="24.000000000000004" y="0.0" width="63.333333333333343" height="30"/>
+                                                            <rect key="frame" x="23.999999999999996" y="0.0" width="56.666666666666657" height="30"/>
                                                             <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k1p-mJ-ySZ" customClass="UIViewExtended" customModule="Gaurashtra" customModuleProvider="target">
-                                                            <rect key="frame" x="103.33333333333331" y="0.0" width="60" height="30"/>
+                                                            <rect key="frame" x="96.666666666666671" y="0.0" width="60.000000000000014" height="30"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yg-p4-aQo">
                                                                     <rect key="frame" x="8" y="0.0" width="32" height="30"/>
@@ -5605,7 +5605,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dropDownArrow" translatesAutoresizingMaskIntoConstraints="NO" id="Ire-SA-fP3">
-                                                                    <rect key="frame" x="42.000000000000014" y="10" width="10" height="10"/>
+                                                                    <rect key="frame" x="41.999999999999986" y="10" width="10" height="10"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="10" id="9lT-97-Gld"/>
                                                                         <constraint firstAttribute="height" constant="10" id="sJ5-FY-F3F"/>
@@ -5644,7 +5644,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YwO-Jm-0OD" customClass="UIViewExtended" customModule="Gaurashtra" customModuleProvider="target">
-                                                            <rect key="frame" x="179.33333333333334" y="0.0" width="90.000000000000028" height="30"/>
+                                                            <rect key="frame" x="172.66666666666666" y="0.0" width="89.999999999999972" height="30"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pack of 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PvJ-fn-duL">
                                                                     <rect key="frame" x="8" y="0.0" width="56" height="30"/>
@@ -5957,13 +5957,13 @@
                                         <rect key="frame" x="0.0" y="8" width="375" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqQ-Do-Mct">
-                                                <rect key="frame" x="24.000000000000004" y="0.0" width="63.333333333333343" height="30"/>
+                                                <rect key="frame" x="23.999999999999996" y="0.0" width="56.666666666666657" height="30"/>
                                                 <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ec0-Az-fNy" customClass="UIViewExtended" customModule="Gaurashtra" customModuleProvider="target">
-                                                <rect key="frame" x="103.33333333333331" y="0.0" width="60" height="30"/>
+                                                <rect key="frame" x="96.666666666666671" y="0.0" width="60.000000000000014" height="30"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3s-Rh-Scg">
                                                         <rect key="frame" x="8" y="0.0" width="32" height="30"/>
@@ -5975,7 +5975,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dropDownArrow" translatesAutoresizingMaskIntoConstraints="NO" id="Jsa-gA-u8q">
-                                                        <rect key="frame" x="42.000000000000014" y="10" width="10" height="10"/>
+                                                        <rect key="frame" x="41.999999999999986" y="10" width="10" height="10"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="10" id="3cS-AW-zBC"/>
                                                             <constraint firstAttribute="width" constant="10" id="O52-EG-63P"/>
@@ -6014,7 +6014,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r3m-ic-ynE" customClass="UIViewExtended" customModule="Gaurashtra" customModuleProvider="target">
-                                                <rect key="frame" x="179.33333333333334" y="0.0" width="90.000000000000028" height="30"/>
+                                                <rect key="frame" x="172.66666666666666" y="0.0" width="89.999999999999972" height="30"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pack of 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezw-UI-jK7">
                                                         <rect key="frame" x="8" y="0.0" width="56" height="30"/>
@@ -7426,7 +7426,7 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attach File" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ax-Nd-BbY">
-                                                            <rect key="frame" x="99.666666666666657" y="92.666666666666629" width="72.666666666666657" height="32"/>
+                                                            <rect key="frame" x="102.66666666666666" y="92.666666666666629" width="66.666666666666657" height="32"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="32" id="NCo-PK-upD"/>
                                                             </constraints>
@@ -8103,13 +8103,13 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50% OFF" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ykp-NA-hgS">
-                                                                    <rect key="frame" x="132" y="0.0" width="52.333333333333343" height="25"/>
+                                                                    <rect key="frame" x="132" y="0.0" width="56" height="25"/>
                                                                     <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
                                                                     <color key="textColor" red="0.93333333330000001" green="0.33333333329999998" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rs. 200.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ua-iG-o4v">
-                                                                    <rect key="frame" x="66" y="12" width="65.333333333333314" height="1"/>
+                                                                    <rect key="frame" x="66" y="12" width="62.666666666666657" height="1"/>
                                                                     <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="1" id="kpJ-qI-gxb"/>
@@ -8445,7 +8445,7 @@
                                                                     </constraints>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8 mins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GkY-xU-txW">
-                                                                    <rect key="frame" x="316.33333333333331" y="8.0000000000000018" width="33.666666666666686" height="16.666666666666671"/>
+                                                                    <rect key="frame" x="320.33333333333331" y="7.9999999999999991" width="29.666666666666686" height="11.666666666666664"/>
                                                                     <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="10"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -8467,7 +8467,7 @@
                                                                     </userDefinedRuntimeAttributes>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flipkart - Casual Calling" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ql-tA-qhn">
-                                                                    <rect key="frame" x="22" y="24.666666666666664" width="328" height="35"/>
+                                                                    <rect key="frame" x="22" y="19.666666666666671" width="328" height="35"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="35" id="fUe-NV-lhQ"/>
                                                                     </constraints>
@@ -8476,7 +8476,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50 - 80% Off on clothing I shop" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9l3-fz-Mhu">
-                                                                    <rect key="frame" x="22" y="59.666666666666671" width="328" height="20"/>
+                                                                    <rect key="frame" x="22" y="54.666666666666664" width="328" height="13.999999999999993"/>
                                                                     <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -9950,7 +9950,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q1v-MY-63A">
-                                                                    <rect key="frame" x="81.333333333333343" y="0.0" width="33.333333333333343" height="20"/>
+                                                                    <rect key="frame" x="81.333333333333343" y="0.0" width="29" height="20"/>
                                                                     <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
                                                                     <color key="textColor" red="0.93333333330000001" green="0.33333333329999998" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -16399,11 +16399,6 @@
             <point key="canvasLocation" x="997.60000000000002" y="4005.6650246305421"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="JTk-I8-HC8">
-            <size key="intrinsicContentSize" width="75" height="10"/>
-        </designable>
-    </designables>
     <inferredMetricsTieBreakers>
         <segue reference="JEX-L9-vrg"/>
     </inferredMetricsTieBreakers>
