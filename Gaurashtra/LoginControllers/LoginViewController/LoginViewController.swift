@@ -287,6 +287,7 @@ class LoginViewController: GaurashtraBaseVC {//GIDSignInDelegate {
             if isInternetAvailable()
             {
                 print(dictParams)
+                
                 UIApplication.shared.beginIgnoringInteractionEvents()
                 self.callLoginWebService()
             }
@@ -320,6 +321,7 @@ class LoginViewController: GaurashtraBaseVC {//GIDSignInDelegate {
                         
                         let userData = kSharedInstance.getDictionary(result["userData"])
                         kSharedUserDefaults.setLoggedInUserDetails(loggedInUserDetails: userData)
+                        kSharedUserDefaults.setLoggedInUserId(loggedInUserId: "")
                         kSharedUserDefaults.setUserLoggedIn(userLoggedIn: true)
                         
                         

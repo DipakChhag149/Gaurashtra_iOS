@@ -144,18 +144,50 @@ class SideViewController: GaurashtraBaseVC {
     
     
     @IBAction func tapToLogout(_ sender: UIButton) {
-        
         self.showActionSheetLogout(withTitle: kAppName, withAlertMessage: kLogoutPlacehoderString, withOptions: ["Logout"]) { (int:Int) in
 
-                       self.logout()
-
-              }
-        
-        
+                self.logout()
+        }
     }
     
+    @IBAction func btnDelete_Account_Click(_ sender: Any) {
+        self.showActionSheetLogout(withTitle: kAppName, withAlertMessage: kDeleteAccountString, withOptions: ["Yes, Delete My Account"]) { (int:Int) in
+            self.dismissViewC(withAnimation: true) {
+                self.DeleteAccountWebService()
+            }
+        }
+    }
     
+    func DeleteAccount() {
+          kSharedAppDelegate.showSideMenu()
+          kSharedUserDefaults.setUserLoggedIn(userLoggedIn: false)
+          let userData : Dictionary<String,Any> = ["":""]
+          kSharedUserDefaults.setLoggedInUserDetails(loggedInUserDetails: userData)
+     }
     
+    func DeleteAccountWebService() {
+        let dictData : [String:String] = ["":""]
+        print("-*-*-*-**-*-*-*-*-*-*-*-*-*-**-*-*-\(dictData)")
+        let apiURL = kBASEURL +  "deleteAccount?userid=\(String.getString(LoginDataModel.getLoggedInUserDetails().customer_id))"
+        TANetworkManager.sharedInstance.requestApi(withServiceName: apiURL, requestMethod: .POST, requestParameters: dictData, withProgressHUD: false, withProgressHUDTitle: "Please Wait") { [weak self] (response: Any?, error: Error?, errorType: ErrorType, statusCode: Int?) in
+            
+            guard let strongSelf = self else { return }
+            if errorType == .requestSuccess {
+                let dictResponse = kSharedInstance.getDictionary(response)
+                print(dictResponse)
+                if (Int.getInt(dictResponse["success"]) == 1) {
+                    self!.DeleteAccount()
+                } else {
+                }
+            }
+            else if errorType == .requestFailed {
+                kSharedAppDelegate.h
+            }
+            else
+            {
+            }
+        }
+    }
 }
 //#MARK:   UITableViewDataSource,UITableViewDelegate  
 extension SideViewController : UITableViewDataSource,UITableViewDelegate

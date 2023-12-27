@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BEF99711-24CA-4A2B-8DFC-48EC4C746DDD"
+            uuid = "E1F4663C-3DA2-4410-B03B-1BF82EC40340"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Gaurashtra/HomeControllers/HomeViewController/HomeVC/HomeViewController.swift"
+            filePath = "Gaurashtra/HomeControllers/SideViewController/SideMenuViewController/SideViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1501"
-            endingLineNumber = "1501"
-            landmarkName = "callGetHomePageDataWebService()"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "DeleteAccount()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

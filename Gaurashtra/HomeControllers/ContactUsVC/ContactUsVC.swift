@@ -301,7 +301,7 @@ class ContactUsVC: GaurashtraBaseVC,UITextViewDelegate, UINavigationControllerDe
     
     private func callgetContactUsContentWebService()
          {
-          let dictData : Dictionary<String,Any> = ["":""]
+          let dictData : [String:String] = ["":""]
       
     
           let apiURL = kBASEURL +  "getContactUsContent"

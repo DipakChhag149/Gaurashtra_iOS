@@ -43,12 +43,11 @@ public class TANetworkManager
    *  @param postData     parameters
    *  @param responeBlock call back in block
    */ // [String : AnyObject]? = [:] Dictionary<String, Any>
-    func requestApi(withServiceName serviceName: String, requestMethod method: kHTTPMethod, requestParameters postData: Dictionary<String, Any> , withProgressHUD showProgress: Bool,withProgressHUDTitle:String, completionClosure:@escaping (_ result: Any?, _ error: Error?, _ errorType: ErrorType, _ statusCode: Int?) -> ()) -> Void
+    func requestApi(withServiceName serviceName: String, requestMethod method: kHTTPMethod, requestParameters postData:[String:String] , withProgressHUD showProgress: Bool,withProgressHUDTitle:String, completionClosure:@escaping (_ result: Any?, _ error: Error?, _ errorType: ErrorType, _ statusCode: Int?) -> ()) -> Void
     {
         if NetworkReachabilityManager()?.isReachable == true
         {
-            if showProgress
-            {
+            if showProgress {
                 showProgressHUD(withTitle: withProgressHUDTitle)
             }
             
@@ -214,8 +213,14 @@ public class TANetworkManager
                     }
                 }
             }
-                }, to: serviceUrl,method: method, headers: headers).responseJSON(queue: .main, options: .allowFragments) { (res) in
-                    switch res.result{
+            }, to: serviceUrl,method: method, headers: headers)
+            .responseString(completionHandler: { res in
+                print("Json: \(res.debugDescription)")
+            })
+            .responseJSON(queue: .main, options: .allowFragments) { (res) in
+                print("Json: \(res.debugDescription)")
+                    
+                switch res.result{
                     case .success(let value):
                         print("Json: \(value)")
                         completionClosure(value, res.error, .requestSuccess, Int.getInt(res.response?.statusCode))
@@ -229,14 +234,6 @@ public class TANetworkManager
                     SVProgressHUD.dismiss()
                     print("Progress: \(progress.fractionCompleted)")
                 }
-            
-            
-            
-            
-            
-            
-            
-            
             
            /* AF.upload(multipartFormData:{ (multipartFormData: MultipartFormData) in
                 do {
